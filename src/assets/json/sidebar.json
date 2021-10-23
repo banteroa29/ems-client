@@ -1,0 +1,68 @@
+[
+    {
+        "key" : 0,
+        "icon" : "pi pi-home",
+        "name" : "Dashboard",
+        "class" : "nav-item",
+        "to": "/",
+        "submenu" : []
+    },
+    {
+        "key" : 1,
+        "icon" : "pi pi-users",
+        "name" : "Employees",
+        "class" : "nav-item",
+        "submenu" : [
+            {
+                "key" : 0,
+                "icon" : "",
+                "name" : "Employee List",
+                "class" : "sub-item",
+                "to" : "/employees"
+            },
+            {
+                "key" : 1,
+                "icon" : "",
+                "name" : "Employee Details",
+                "class" : "sub-item",
+                "to" : "/employee-details"
+            }
+        ]
+    },
+    {
+        "key": 2,
+        "icon": "pi pi-cog",
+        "name" : "Settings",
+        "class":  "nav-item",
+        "submenu" : [
+            {
+                "key" : 0,
+                "icon" : "",
+                "name" : "Departments",
+                "class" : "sub-item",
+                "to" : "/departments"
+            },
+            {
+                "key" : 1,
+                "icon" : "",
+                "name" : "Designation",
+                "class" : "sub-item",
+                "to" : "/designations"
+            },
+            {
+                "key" : 2,
+                "icon" : "",
+                "name" : "Employee Types",
+                "class" : "sub-item",
+                "to" : "/employee-types"
+            },
+            {
+                "key" : 3,
+                "icon" : "",
+                "name" : "Employee Statuses",
+                "class" : "sub-item",
+                "to" : "/employee-statuses"
+            }
+        ]
+    }
+]
